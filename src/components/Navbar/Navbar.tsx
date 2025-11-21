@@ -3,12 +3,14 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <header className="border-b bg-[#fdf9f3]/90 backdrop-blur sticky top-0 z-20">
-      <nav className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <nav className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        {/* Left: Logo */}
         <NavLink to="/" className="text-xl font-bold">
           Mehul
         </NavLink>
 
-        <div className="flex gap-4 text-sm">
+        {/* Right: Links */}
+        <div className="flex flex-wrap gap-3 text-sm sm:justify-end">
           <NavLink to="/about">About</NavLink>
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/photography">Photography</NavLink>
