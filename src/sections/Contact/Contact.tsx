@@ -22,7 +22,7 @@ const Contact = () => {
         <aside className="space-y-4 text-sm">
           <div>
             <p className="font-semibold">Email</p>
-            <p>youremail@example.com</p>
+            <p>mehkumawat@gmail.com</p>
           </div>
           <div>
             <p className="font-semibold">Links</p>

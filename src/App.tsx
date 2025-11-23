@@ -7,6 +7,7 @@ import Photography from "./sections/Photography/Photography";
 import Journal from "./sections/Journal/Journal";
 import Contact from "./sections/Contact/Contact";
 import Skills from "./sections/Skills/Skills";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -21,8 +22,10 @@ const App = () => {
           <Route path="/journal" element={<Journal />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/skills" element={<Skills />} />
+          {/* <Route path="/footer" element={<Footer />} /> */}
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 };
